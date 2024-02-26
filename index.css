@@ -1,0 +1,82 @@
+body {
+ 
+    font-family: Goudy Old Style;
+    padding: 0;
+    background-color: #A9C6AA;
+  }
+  
+  @media only screen and (min-width: 700px) { /* esimerkiksi 768 pikseliä on tablettinäytön leveys */
+    body {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+
+  header {
+    background-color: #A9C6AA;
+    color: #151613;
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  .pic1 {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%; 
+    border: 4px solid #f2f2f2;
+  }
+
+  .pic2 {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #A9C6AA;
+    border-radius: 5px;
+    padding: 4px; 
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: #f2f2f2;
+    height: 60px; 
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex; 
+  }
+  
+  nav ul li {
+    border-right: 1px solid #A9C6AA;
+  }
+  
+  nav ul li:last-child {
+    border-right: none;
+  }
+  
+  nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #151613;
+  }
+  
+  nav ul li a:hover {
+    background-color: #F1F2EB;
+  }
+  main {
+    padding: 20px;
+    background-color: #F1F2EB;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 1.5;
+}
