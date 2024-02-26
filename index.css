@@ -5,7 +5,7 @@ body {
     background-color: #A9C6AA;
   }
   
-  @media only screen and (min-width: 700px) { /* esimerkiksi 768 pikseliä on tablettinäytön leveys */
+  @media only screen and (min-width: 700px) {
     body {
       margin-left: 20%;
       margin-right: 20%;
@@ -44,7 +44,7 @@ body {
     background-color: #f2f2f2;
     height: 60px; 
     align-items: center;
-    font-size: 18px;
+    font-size: 17px;
   }
   
   nav ul {
