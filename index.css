@@ -1,11 +1,11 @@
 body {
  
-    font-family: Goudy Old Style;
+    font-family: Lora;
     padding: 0;
     background-color: #A9C6AA;
   }
   
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 800px) { 
     body {
       margin-left: 20%;
       margin-right: 20%;
@@ -21,15 +21,15 @@ body {
   }
 
   .pic1 {
-    width: 30%;
-    height: 30%;
+    width: 45%;
+    max-width: 275px;
     border-radius: 50%; 
     border: 4px solid #f2f2f2;
   }
 
   .pic2 {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    max-width: 425px;
     display: block;
     margin: 0 auto;
     border: 3px solid #A9C6AA;
@@ -38,46 +38,60 @@ body {
   }
 
   nav {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    background-color: #f2f2f2;
-    height: 60px; 
-    align-items: center;
-    font-size: 18px;
+    background-color: #F1F2EB;
+    padding: 1px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    font-size: 18.5px;
+    text-align: center; /* Keskitetään linkit vaakasuunnassa */
   }
   
   nav ul {
-    list-style-type: none;
-    display: flex; 
+    padding: 0;
+
   }
   
   nav ul li {
-    border-right: 1px solid #A9C6AA;
+    display: inline-block; /* Asetetaan linkit riviksi */
+
   }
-  
-  nav ul li:last-child {
-    border-right: none;
-  }
+
   
   nav ul li a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     color: #151613;
+
   }
+
   
   nav ul li a:hover {
     background-color: #F1F2EB;
+    text-decoration: underline #A9C6AA;
   }
+  
+
 
   main {
     padding: 20px;
     background-color: #F1F2EB;
+    border-radius: 5px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  h2 {
+    font-size: 20 px;
+  }
+
+  h3 {
+    font-size: 18.5xp;
+    margin-top: 40px;
+    margin-bottom: 1px;
   }
 
   p {
     font-size: 18px;
     line-height: 1.5;
+    margin-top: 10px;
 }
