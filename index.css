@@ -70,14 +70,6 @@ body {
     background-color: #F1F2EB;
   }
 
-.flex-container {
-    display: flex;
-    
-  }
-  .felx-item {
-    flex: 1;
-  }
-
   main {
     padding: 20px;
     background-color: #F1F2EB;
