@@ -70,17 +70,6 @@ body {
     background-color: #F1F2EB;
   }
 
-  flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 30px;
-        text-align: center;
-        margin-bottom: 30px;
-      }
-  .felx-item {
-        flex: 1;
-        margin-right: 5px;
-      }
   main {
     padding: 20px;
     background-color: #F1F2EB;
