@@ -42,7 +42,7 @@ body {
     padding: 1px;
     border-radius: 5px;
     margin-bottom: 6px;
-    font-size: 18.5px;
+    font-size: 18px;
     text-align: center; /* Keskitetään linkit vaakasuunnassa */
   }
   
@@ -85,7 +85,7 @@ body {
   }
 
   h3 {
-    font-size: 18xp;
+    font-size: 18px;
     margin-top: 40px;
     margin-bottom: 1px;
   }
